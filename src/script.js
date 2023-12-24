@@ -22,27 +22,27 @@ scene.fog = fog
  * Textures
  */
 const textureLoader = new THREE.TextureLoader()
-const doorColorTexture = textureLoader.load('/textures/door/color.jpg')
+const doorColorTexture = textureLoader.load('textures/door/color.jpg')
 doorColorTexture.colorSpace = THREE.SRGBColorSpace
-const doorAlphaTexture = textureLoader.load('/textures/door/alpha.jpg')
-const doorAmbientOcclusionTexture = textureLoader.load('/textures/door/ambientOcclusion.jpg')
-const doorHeightTexture = textureLoader.load('/textures/door/height.jpg')
-const doorNormalTexture = textureLoader.load('/textures/door/normal.jpg')
-const doorMetalnessTexture = textureLoader.load('/textures/door/metalness.jpg')
-const doorRoughnessTexture = textureLoader.load('/textures/door/roughness.jpg')
-const doorLightTexture = textureLoader.load('/textures/doorLight.png')
+const doorAlphaTexture = textureLoader.load('textures/door/alpha.jpg')
+const doorAmbientOcclusionTexture = textureLoader.load('textures/door/ambientOcclusion.jpg')
+const doorHeightTexture = textureLoader.load('textures/door/height.jpg')
+const doorNormalTexture = textureLoader.load('textures/door/normal.jpg')
+const doorMetalnessTexture = textureLoader.load('textures/door/metalness.jpg')
+const doorRoughnessTexture = textureLoader.load('textures/door/roughness.jpg')
+const doorLightTexture = textureLoader.load('textures/doorLight.png')
 
-const bricksColorTexture = textureLoader.load('/textures/bricks/color.jpg')
+const bricksColorTexture = textureLoader.load('textures/bricks/color.jpg')
 bricksColorTexture.colorSpace = THREE.SRGBColorSpace
-const bricksAmbientOcclusionTexture = textureLoader.load('/textures/bricks/ambientOcclusion.jpg')
-const bricksNormalTexture = textureLoader.load('/textures/bricks/normal.jpg')
-const bricksRoughnessTexture = textureLoader.load('/textures/bricks/roughness.jpg')
+const bricksAmbientOcclusionTexture = textureLoader.load('textures/bricks/ambientOcclusion.jpg')
+const bricksNormalTexture = textureLoader.load('textures/bricks/normal.jpg')
+const bricksRoughnessTexture = textureLoader.load('textures/bricks/roughness.jpg')
 
-const grassColorTexture = textureLoader.load('/textures/grass/color.jpg')
+const grassColorTexture = textureLoader.load('textures/grass/color.jpg')
 grassColorTexture.colorSpace = THREE.SRGBColorSpace
-const grassAmbientOcclusionTexture = textureLoader.load('/textures/grass/ambientOcclusion.jpg')
-const grassNormalTexture = textureLoader.load('/textures/grass/normal.jpg')
-const grassRoughnessTexture = textureLoader.load('/textures/grass/roughness.jpg')
+const grassAmbientOcclusionTexture = textureLoader.load('textures/grass/ambientOcclusion.jpg')
+const grassNormalTexture = textureLoader.load('textures/grass/normal.jpg')
+const grassRoughnessTexture = textureLoader.load('textures/grass/roughness.jpg')
 
 grassColorTexture.repeat.set(8, 8)
 grassAmbientOcclusionTexture.repeat.set(8, 8)
@@ -59,17 +59,8 @@ grassAmbientOcclusionTexture.wrapT = THREE.RepeatWrapping
 grassNormalTexture.wrapT = THREE.RepeatWrapping
 grassRoughnessTexture.wrapT = THREE.RepeatWrapping
 
-const windowColorTexture = textureLoader.load('/textures/window/color.jpg')
+const windowColorTexture = textureLoader.load('textures/window/color.jpg')
 windowColorTexture.colorSpace = THREE.SRGBColorSpace
-const windowAlphaTexture = textureLoader.load('/textures/window/alpha.jpg')
-const windowAmbientOcclusionTexture = textureLoader.load('/textures/window/ambientOcclusion.jpg')
-const windowHeightTexture = textureLoader.load('/textures/window/height.jpg')
-const windowNormalTexture = textureLoader.load('/textures/window/normal.jpg')
-const windowMetalnessTexture = textureLoader.load('/textures/window/metalness.jpg')
-const windowRoughnessTexture = textureLoader.load('/textures/window/roughness.jpg')
-
-const moonTexture = textureLoader.load('/textures/moon.jpg')
-const moonAlphaTexture = textureLoader.load('/textures/moonAlpha.jpg')
 
 /**
  * House
